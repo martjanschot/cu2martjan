@@ -1,5 +1,6 @@
 #links{
 width:20vw;
+float: left;
 }
 
 #midden{
@@ -8,6 +9,7 @@ width: 60vw;
 
 #rechts{
 width:20vw;
+float: right;
 }
 
 body {
