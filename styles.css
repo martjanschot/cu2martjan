@@ -1,16 +1,19 @@
 #links{
-width:20vw;
+width:20%;
 float: left;
+background-color: aqua;
 }
 
 #midden{
-width: 60vw;
+width: 60%;
 float: left;
+background-color: yellow;
 }
 
 #rechts{
-width:20vw;
+width:20%;
 float: right;
+background-color: red;
 }
 
 body {
