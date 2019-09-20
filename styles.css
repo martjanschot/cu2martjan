@@ -1,56 +1,39 @@
-#menu
+header
 {
-height: 5vh;
-width:100vw;
-text-align: center;
-padding: 0%;
-margin:0%;
-background-color: blanchedalmond;
-}
-#links
-{
-width:20%;
-float: left;
-background-color: rgb(0, 255, 191);
-height: 100vh;
-margin: 0%;
 text-align: center;
 }
 
-#midden
-{
-width: 60%;
-float:left;
-background-color: yellow;
-height: 100vh;
-margin: 0%;
-text-align: center;
+body{
+  text-align: center;
+  
 }
 
-#rechts
-{
-width:20%;
-float: right;
-height: 100vh;
-margin: 0%;
-text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-body
-{
-    width: 100vw;
-    margin: 0%;
-  }
+.topnav { 
+  background-color: #000000;
+  overflow: hidden;
+}
 
-  foto1{
-      width: 20px;
-  }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  #q{
-    margin-top:0vw;
-    margin-bottom: 1vw;
-  }
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
 
-  #p1{
-margin-bottom: 0%;
-  }
+.topnav a.active {
+  background-color: rgb(90, 143, 91);
+  color: white;
+}
